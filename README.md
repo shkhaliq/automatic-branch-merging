@@ -1,7 +1,10 @@
 
-[![Build Status](https://travis-ci.com/shkhaliq/automatic-branch-merging.svg?branch=master)](https://travis-ci.com/shkhaliq/automatic-branch-merging)
+<img src="automatic-branch-merging.png" width=198 height=125 alt="Automatic-Branch-Merging" />
 
 # automatic-branch-merging
+
+[![Build Status](https://travis-ci.com/shkhaliq/automatic-branch-merging.svg?branch=master)](https://travis-ci.com/shkhaliq/automatic-branch-merging)
+
 Swift package to help do automatic branch merging
 
 
