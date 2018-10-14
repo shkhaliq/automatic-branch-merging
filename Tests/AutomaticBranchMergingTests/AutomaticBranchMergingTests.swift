@@ -1,5 +1,5 @@
 import XCTest
-@testable import automatic_branch_merging
+@testable import AutomaticBranchMerging
 
 final class AutomaticBranchMergingTests: XCTestCase {
     func testExample() {
