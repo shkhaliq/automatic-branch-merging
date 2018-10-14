@@ -1,7 +1,7 @@
 import XCTest
 
-import automatic_branch_mergingTests
+import AutomaticBranchMergingTests
 
 var tests = [XCTestCaseEntry]()
-tests += automatic_branch_mergingTests.allTests()
+tests += AutomaticBranchMergingTests.allTests()
 XCTMain(tests)
