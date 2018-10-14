@@ -1,7 +1,10 @@
-struct AutomaticBranchMerging {
-    var text = "Hello, World!"
+import SwiftShell
+
+struct GitCommands {
+    let command = run("git", ["rev-parse", "--abbrev-ref", "HEAD"])
 }
 
-func main() -> Void {
-    print(AutomaticBranchMerging().text)
+func main() {
+    print(GitCommands().command.stdout)
+    print(GitCommands().command.stdout == "master")
 }

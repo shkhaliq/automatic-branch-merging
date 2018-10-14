@@ -10,10 +10,13 @@ let package = Package(
             name: "AutomaticBranchMerging",
             targets: ["AutomaticBranchMerging"]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/kareman/SwiftShell", from: "4.1.2"),
+    ],
     targets: [
         .target(
             name: "AutomaticBranchMerging",
-            dependencies: []),
+            dependencies: ["SwiftShell"]),
         .testTarget(
             name: "AutomaticBranchMergingTests",
             dependencies: ["AutomaticBranchMerging"]),
