@@ -1,3 +1,6 @@
+
+![Build Status](https://travis-ci.com/shkhaliq/automatic-branch-merging.svg?branch=master)
+
 # automatic-branch-merging
 Swift package to help do automatic branch merging
 
