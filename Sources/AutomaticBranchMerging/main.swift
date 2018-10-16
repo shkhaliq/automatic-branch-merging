@@ -7,4 +7,11 @@
 
 import Foundation
 
-main()
+let commands = GitCommands()
+//    git log develop..release-candidate
+
+let fromBranch = "origin/git-command-integration"
+let toBranch = "origin/master"
+
+commands.commitsExist(from: fromBranch, to: toBranch)
+
