@@ -10,10 +10,13 @@ let package = Package(
             name: "AutomaticBranchMerging",
             targets: ["AutomaticBranchMerging"]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/shkhaliq/octokit.swift", .branch("add-package-manager")),
+    ],
     targets: [
         .target(
             name: "AutomaticBranchMerging",
-            dependencies: []),
+            dependencies: ["OctoKit"]),
         .testTarget(
             name: "AutomaticBranchMergingTests",
             dependencies: ["AutomaticBranchMerging"]),
